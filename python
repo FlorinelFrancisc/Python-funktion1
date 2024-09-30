@@ -1,0 +1,10 @@
+def is_email_like_simple(string):
+    # Kontrollera om strängen innehåller ett "@" och en "."
+    if "@" in string and "." in string:
+        return True
+    else:
+        return False
+
+# Exempel
+print(is_email_like_simple("exempel@mail.com"))  # True
+print(is_email_like_simple("inte_en_email"))     # False
